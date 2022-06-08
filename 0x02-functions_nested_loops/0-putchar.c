@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - check the code for school students
+ * program that prints _putchar, followed by a new line
+ * Return: always 0 (success)
  */
 int main(void)
 {
-	_putchar (72);
-	_putchar (111);
-	_putchar (108);
-	_putchar (98);
-	_putchar (101);
-	_putchar (114);
-	_putchar (116);
-	_putchar (111);
-	_putchar (110);
-	_putchar (10);
+	char s[] = "_putchar";
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		_putchar(s[i]);
+		i++;
+	}
+	_putchar(10);
+
 	return (0);
 }
