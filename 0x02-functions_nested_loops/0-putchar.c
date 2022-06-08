@@ -1,16 +1,20 @@
 #include "main.h"
-
 /**
- * main - print main
- * Return: 0 if succesful
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-_putchar('m');
-_putchar('a');
-_putchar('i');
-_putchar('n');
-_putchar('\n');
-
-return (0);
+	_putchar (72);
+	_putchar (111);
+	_putchar (108);
+	_putchar (98);
+	_putchar (101);
+	_putchar (114);
+	_putchar (116);
+	_putchar (111);
+	_putchar (110);
+	_putchar (10);
+	return (0);
 }
