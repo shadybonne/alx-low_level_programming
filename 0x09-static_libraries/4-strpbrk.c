@@ -2,5 +2,5 @@
 #include <stdio.h>
 void fun(void)
 {
-	int _islower(int c);
+	char *_strpbrk(char *s, char *accept);
 }

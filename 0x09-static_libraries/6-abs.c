@@ -2,5 +2,5 @@
 #include <stdio.h>
 void fun(void)
 {
-	int _islower(int c);
+	int _abs(int n);
 }
